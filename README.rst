@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/muhuk/python-awis.svg?branch=master)](https://travis-ci.org/muhuk/python-awis)
 Wraps `Alexa Web Information Service`_.
 
 Usage
