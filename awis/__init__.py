@@ -121,7 +121,7 @@ class AwisApi(object):
         params = {
             "Action": "CategoryListings",
             "ResponseGroup": "Listings",
-            "Path": quote(path),
+            "Path": path,
             "SortBy": SortBy,
             "Start": str(Start),
             "Recursive": str(not not Recursive),
