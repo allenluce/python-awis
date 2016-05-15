@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 from distutils.command.install import INSTALL_SCHEMES
 from awis import __version__, __maintainer__, __email__
 
@@ -14,6 +14,8 @@ long_description = open('README.rst').read()
 
 
 setup(
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest'],
     name = 'python-awis',
     version = __version__,
     url = 'http://github.com/muhuk/python-awis',
